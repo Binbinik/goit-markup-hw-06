@@ -882,3 +882,6 @@ html {
   background-repeat: no-repeat;
   border-color: var(--accent-colour);
 }
+.checkbox-input:focus + .confirmation-icon {
+  border-color: var(--accent-colour);
+}
